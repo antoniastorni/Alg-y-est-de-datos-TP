@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class NumerosRomanos {
+public class NumeroRomano {
         private final HashMap<String, Integer> numeros;
 
         public NumeroRomano(){
@@ -35,7 +35,7 @@ public class NumerosRomanos {
         }
     }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         NumeroRomano a = new NumeroRomano();
         Scanner sc = new Scanner(System.in);

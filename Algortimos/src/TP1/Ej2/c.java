@@ -20,4 +20,8 @@ public class c {
     }
 }
 
-// Los tiempos
+/* Tiempos para distintos valores de N con los distintos sorts
+        Tiempo del selection: 3 s 532 ms
+        Tiempo del insertion: 3 s 361 ms
+        Tiempo del bubble: 3 s 995 ms
+*/

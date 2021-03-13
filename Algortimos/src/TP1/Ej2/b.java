@@ -2,25 +2,25 @@ package TP1.Ej2;
 
 public class b {
     // Algoritmo de seleccion
-    public void selectionSort(int[] array) {
-        for (int i = array.length - 1; i > 0; i--) {
-            int maxValue = 0;
-            for (int j = 0; j < i; j++) {
-                if (array[j + 1] > array[maxValue]) {
-                    maxValue = j + 1;
-                }
-            }
-            swap(array, i, maxValue);
+    void selectionSort(int arr[]) {
+
+        int n = arr.length;
+
+        for (int i = 0; i < n-1; i++)
+        {
+            int min_idx = i;
+            for (int j = i+1; j < n; j++)
+                if (arr[j] < arr[min_idx])
+                    min_idx = j;
+
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
         }
-    }
-    public void swap(int[] array, int a, int b) {
-        int value = array[b];
-        array[b] = array[a];
-        array[a] = value;
     }
 
     // Algoritmo de insercion
-    void sort(int arr[])
+    void insertionSort(int arr[])
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
@@ -37,7 +37,7 @@ public class b {
 
 
     // Algoritmo de burbujeo
-    public static void burbuja(int[] A) {
+    public static void bubbleSort(int[] A) {
         int i, j, aux;
         for (i = 0; i < A.length - 1; i++) {
             for (j = 0; j < A.length - i - 1; j++) {

@@ -14,7 +14,7 @@ public class NumeroRomano {
             numeros.put("D", 500);
             numeros.put("M", 1000);
         }
-        //agregar excepciones de entrada erronea o escritura de numeros romanos erronea(pór las reglas de escritura)?
+
         public int aDecimal(String string) {
             string = string.toUpperCase();
             int aux = decimalValue(String.valueOf(string.charAt(string.length()-1)));

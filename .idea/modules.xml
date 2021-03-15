@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Alg-y-est-de-datos-TP.iml" filepath="$PROJECT_DIR$/.idea/Alg-y-est-de-datos-TP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algortimos/Algortimos.iml" filepath="$PROJECT_DIR$/Algortimos/Algortimos.iml" />
     </modules>
   </component>

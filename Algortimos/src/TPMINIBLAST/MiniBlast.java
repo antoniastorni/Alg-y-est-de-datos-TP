@@ -12,7 +12,7 @@ public class MiniBlast {
                 if(i >= 2 && query[i-2] == reference[i-2]) {
                     aux++;
                 }
-                if(i <= query.length-1 && query[i+1] == reference[i+1]) {
+                if(i <= query.length-1 && query[i] == reference[i]) {
                     aux++;
                     i++;
                 }
